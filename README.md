@@ -78,52 +78,38 @@ projeto-backend/
 
 1. Clone o repositório:
 
-```bash
 git clone https://github.com/seu-usuario/projeto-backend.git
-```
 
 2. Entre na pasta do projeto:
 
-```bash
 cd projeto-backend
-```
 
 3. Instale as dependências:
 
-```bash
 npm install
-```
 
 4. Configure as variáveis de ambiente no arquivo `.env` (baseado no `.env.example`):
 
-```
 PORT=3000
 DB_HOST=localhost
 DB_USER=seu_usuario
 DB_PASSWORD=sua_senha
 DB_NAME=nome_do_banco
 JWT_SECRET=sua_chave_secreta
-```
+
 
 5. Configure o banco MySQL e crie as tabelas conforme scripts SQL fornecidos (ou via migrations).
 
----
 
 ## Uso
 
 Para iniciar a aplicação em modo de desenvolvimento com recarga automática:
 
-```bash
 npm run dev
-```
 
 Para iniciar normalmente:
 
-```bash
 npm start
-```
-
----
 
 ## Endpoints
 
@@ -156,13 +142,10 @@ npm start
 
 Para rodar a suíte de testes:
 
-```bash
 npm test
-```
 
 Inclui testes para rotas válidas e inválidas, e verifica autenticação e cache.
 
----
 
 ## Logs e Cache
 

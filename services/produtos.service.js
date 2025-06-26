@@ -1,5 +1,5 @@
 const db = require('../configs/db');
-const cache = require('./cache');
+const { cache } = require('./cache');
 
 async function listarProdutos() {
   const cacheKey = 'produtos';
