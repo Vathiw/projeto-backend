@@ -1,2 +1,38 @@
+# Node.js
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
 .env
+
+# VSCode
+.vscode/
+
+# Sistema operacional (Windows)
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+logs/
+*.log
+
+# Pasta de build / dist
+dist/
+build/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# MacOS
+.DS_Store
+
+# Outras pastas do Windows para ignorar (evita as permissões negadas)
+$Recycle.Bin/
+Program Files/
+Program Files (x86)/
+ProgramData/
+AppData/
+Windows/
